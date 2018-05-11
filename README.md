@@ -2,11 +2,10 @@
 These are mods to wattOS, currently R10, for building laptops for missionaries of Christ.
 
 _Package installs:_
-plymouth-themes
-plymouth-label
+sudo apt install plymouth-themes plymouth-label libreoffice libreoffice-help-en-us openclipart2-libreoffice openclipart-libreoffice pstoedit fonts-crosextra-caladea fonts-crosextra-carlito fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei fonts-wqy-zenhei fonts-indic
 
 _Edit:_
-~/.config/lxpanel/LXDE/panels/panel
+nano ~/.config/lxpanel/LXDE/panels/panel
 Under plugin / menu, comment out "image=..." and add "name=Menu"
 
 
